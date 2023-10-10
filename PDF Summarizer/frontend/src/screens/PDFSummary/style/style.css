@@ -1,0 +1,81 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Using Roboto font */
+}
+
+.custom-input, .custom-button {
+  height: 60px;
+  border-radius: 8px;
+}
+
+.container .hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../images/libBackground.jpg');
+  height: 70vh;
+  background-position: center;
+  color: white;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  border-radius: 8px;
+}
+
+.alert-success {
+  border: none;
+  background-color: #e6ffed;
+  color: #2c7a49;
+}
+
+.alert-danger {
+  border: none;
+  background-color: #ffe6e6;
+  color: #993d3d;
+}
+
+.file-upload-wrapper {
+  position: relative;
+  margin: 0 auto;
+  text-align: center; /* Center the file input and label */
+}
+
+.custom-file-input {
+  display: none; /* Hide the default file input */
+}
+
+.custom-file-label {
+  display: inline-block; /* Allows the button to be only as wide as its content */
+  padding: 10px 15px;
+  border: 1px solid #007BFF;
+  border-radius: 8px;
+  background-color: #007BFF;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-file-label:hover {
+  background-color: #0056b3;
+}
